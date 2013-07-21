@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My First Bitstarter</title>
+    <title>Pi DeskSu !</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Boot strap css (everything minified) -->
@@ -76,6 +76,7 @@
       }
       .actions {
         background-color: #343434;
+        height: 304px;
         padding: 3% 0%;
       }
       .video, .thermometer, .order, .social, .statistics {
@@ -90,6 +91,7 @@
         padding-top: 2.5%;
         padding-bottom: 2.5%;
         text-align: justify;
+        height: 304px;
       }
       .asset {
         padding: 2.5% 0%;
@@ -115,16 +117,16 @@
         <div class="container">
           <button type="button" class="btn btn-navbar"
                   data-toggle="collapse" data-target=".nav-collapse">
+            <!-- viewed in mobile. generate 3 strokes of bar for the menut button -->
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Bitstarter</a>
+          <a class="brand" href="#">Pi DeskSu</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#info">More Info</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -140,19 +142,20 @@
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Product</h1>
+          <h1>pi DeskSu</h1>
         </div>
       </div> 
       <div class="row-fluid subheading">
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">One sentence description.</p>
+          <p class="lead">A desktop computer that fits into your palm</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <!-- http://builttospecstore.storenvy.com/products/404262-raspberry-pi-enclosure-kit -->
+          <img class="img-polaroid" width="480" height ="300" src="https://lh3.googleusercontent.com/-V9ZqipqLd5Q/Uet7c6HK5bI/AAAAAAAAAnU/IF2jMu84lUo/w480-h300-no/rsz_side-4_original.jpg">
         </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
@@ -164,17 +167,17 @@
                 different in horizontal and vertical layouts, illustrating
                 media queries. -->
                 <div class="linediv-l">
-                <h3>1000</h3> <p>backers</p>
+                <h3>1</h3> <p>backers</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3>$6000</h3> <p>of $10,000</p>
+                  <h3>$0</h3> <p>of $5,000</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-r">
-                <h3>10</h3> <p>days left</p>
+                <h3>100</h3> <p>days left</p>
                 </div>
               </div>
             </div>
@@ -207,25 +210,21 @@
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid"  src="https://lh5.googleusercontent.com/-mXUlfhRqzIo/UeuBzcYmbvI/AAAAAAAAAqg/99gWVfC8Wmc/w480-h300-no/less_work_more_life_hats-ree4bcd9ebd3b4e3898b52606fb5d4119_v9wfy_8byvr_324.jpg">
         </div>
         <div class="span5 copy">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
+              Tell us your problem, be it setting up a Bit-Torrent downloader, a media hub
+              or a NAS home file sharing server.
           </p>
+          <p>
+              We build and configure your ideal Raspberry Pi Desktop, so you don't have to. 
+          </p>
+          <br /> <br />
+          <p>This means Less Work and More Play for you :) </p>
         </div>
       </div>
-
+<!--
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
@@ -246,9 +245,7 @@
           <img class="img-polaroid" src="http://placehold.it/480x300">
         </div>
       </div>
-
-      <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
-      <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
+-->
       <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
       <div class="row-fluid faq">
           <div class="span10 offset1">
@@ -258,12 +255,14 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseOne">
-                    What does FAQ stand for?
+                     What is a raspberry pi ?
                   </a>
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    Frequently Asked Question.
+                  A raspberry Pi is a mini Linux based computer, the size of a credit card. 
+                  It consumes as much power as your iPhone charger, and works great  if you 
+                  require a computer that runs 24 hours, 7 days a week.
                   </div>
                 </div>
               </div>
@@ -271,19 +270,37 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseTwo">
-                    What's a Frequently Asked Question?
+                     But I can build it myself ?
                   </a>
                 </div>
                 <div id="collapseTwo" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    A question which is commonly asked by users.
+                  Yeap, you can ! This site is meant for people who do not wish to trouble themselves
+                  with learning how to configure a raspverry pi. Or perhaps its just simpler to outsource
+                  things so that you can focus on other more important stuff..
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
 
-      </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse"
+                     data-parent="#accordion2" href="#collapseThree">
+                     I want to save money. Tell me how to build it myself.
+                  </a>
+                </div>
+                <div id="collapseThree" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                  Sure ! I did a short github write up over  <a href="https://github.com/alcedo/raspberrypi/blob/master/README.md"> Here </a>
+                  </div>
+                </div>
+              </div>
+
+
+            </div> <!-- end of span class -->
+          </div> <!-- end of row -->
+
+      </div> <!-- -->
 
       <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
       <!-- http://creativecommons.org/licenses/ -->
